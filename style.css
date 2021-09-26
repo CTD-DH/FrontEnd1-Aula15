@@ -1,0 +1,38 @@
+button{
+    border: none;
+    padding: 12px 24px;
+    background-color: tomato;
+    color: white;
+    transition-duration: 1s;
+}
+
+/* hover é quando passa o mouse por cima */
+button:hover{
+    background-color: blueviolet;
+}
+
+input{
+    background-color: rgb(197, 196, 196);
+    border: none;    
+}
+
+input:hover{
+    padding: 6px;
+}
+
+/* focus é quando você seleciona o input */
+input:focus{
+    background-color:aquamarine;
+}
+
+input:disabled{
+    opacity: 0.2;
+}
+
+.valido:valid{
+    border: 1px green solid;
+}
+
+.valido:invalid{
+    border: 1px solid red;
+}

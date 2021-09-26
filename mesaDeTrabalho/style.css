@@ -1,0 +1,42 @@
+input:focus{
+    background-color: aqua;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: aquamarine;
+    filter: brightness(1.3);
+}
+
+#checked:checked{
+    margin-left: 25px;
+    border: 2px solid red;
+}
+
+li:nth-child(2n-1){
+    background-color: chartreuse;
+}
+
+#desativado:disabled{
+    background-color: rgba(214, 130, 130, 0.801);
+}
+
+#ativado:enabled{
+    border: 2px solid green;
+}
+
+#need:required{
+    border: red 2px solid;
+}
+
+#optional:optional{
+    background-color: cyan;
+}
+
+#place::placeholder{
+    color: blueviolet;
+}
